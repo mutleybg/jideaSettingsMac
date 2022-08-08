@@ -1,0 +1,79 @@
+<keymap version="1" name="Eclipse (macOS) copy" parent="Eclipse (Mac OS X)">
+  <action id="ActivateProjectToolWindow">
+    <keyboard-shortcut first-keystroke="alt 1" />
+  </action>
+  <action id="Arrangement.Alias.Rule.Add">
+    <keyboard-shortcut first-keystroke="ctrl enter" />
+  </action>
+  <action id="Arrangement.Rule.Add">
+    <keyboard-shortcut first-keystroke="ctrl enter" />
+  </action>
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="meta open_bracket" />
+    <mouse-shortcut keystroke="button4" />
+    <keyboard-shortcut first-keystroke="alt left" />
+  </action>
+  <action id="ClickLink">
+    <mouse-shortcut keystroke="control button1" />
+  </action>
+  <action id="Console.TableResult.NavigateForeignAction">
+    <mouse-shortcut keystroke="control button1" />
+  </action>
+  <action id="DatabaseView.OpenFamilyAction" />
+  <action id="EditSource" />
+  <action id="EditorNextWord">
+    <keyboard-shortcut first-keystroke="ctrl alt f" />
+  </action>
+  <action id="EditorPreviousWord">
+    <keyboard-shortcut first-keystroke="ctrl alt b" />
+  </action>
+  <action id="ExternalSystem.OpenConfig" />
+  <action id="FileChooser.NewFolder" />
+  <action id="Find">
+    <keyboard-shortcut first-keystroke="meta f" />
+  </action>
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="meta close_bracket" />
+    <mouse-shortcut keystroke="button5" />
+    <keyboard-shortcut first-keystroke="alt right" />
+  </action>
+  <action id="Generate">
+    <keyboard-shortcut first-keystroke="ctrl enter" />
+  </action>
+  <action id="GotoAction">
+    <keyboard-shortcut first-keystroke="meta 3" />
+    <keyboard-shortcut first-keystroke="shift meta a" />
+  </action>
+  <action id="GotoDeclaration">
+    <mouse-shortcut keystroke="control button1" />
+  </action>
+  <action id="GotoImplementation">
+    <keyboard-shortcut first-keystroke="f3" />
+  </action>
+  <action id="GotoNextError">
+    <keyboard-shortcut first-keystroke="meta period" />
+    <keyboard-shortcut first-keystroke="meta n" />
+  </action>
+  <action id="Jdbc.OpenEditor.Data" />
+  <action id="NavBar-navigate" />
+  <action id="NewElement">
+    <keyboard-shortcut first-keystroke="ctrl enter" />
+  </action>
+  <action id="NextDiff">
+    <keyboard-shortcut first-keystroke="ctrl f7" />
+    <keyboard-shortcut first-keystroke="meta n" />
+  </action>
+  <action id="OpenModuleSettings" />
+  <action id="ProjectViewEditSource" />
+  <action id="RemoteHostView.EditSource" />
+  <action id="ServiceView.AddService">
+    <keyboard-shortcut first-keystroke="ctrl enter" />
+  </action>
+  <action id="Sql.EditParameter" />
+  <action id="Uml.NewElement">
+    <keyboard-shortcut first-keystroke="ctrl enter" />
+  </action>
+  <action id="Vcs.QuickListPopupAction">
+    <keyboard-shortcut first-keystroke="meta g" />
+  </action>
+</keymap>
