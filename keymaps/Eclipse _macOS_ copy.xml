@@ -28,6 +28,10 @@
     <keyboard-shortcut first-keystroke="ctrl alt b" />
   </action>
   <action id="ExternalSystem.OpenConfig" />
+  <action id="ExtractMethod">
+    <keyboard-shortcut first-keystroke="meta alt m" />
+    <keyboard-shortcut first-keystroke="shift alt m" />
+  </action>
   <action id="FileChooser.NewFolder" />
   <action id="Find">
     <keyboard-shortcut first-keystroke="meta f" />
@@ -54,6 +58,10 @@
     <keyboard-shortcut first-keystroke="meta period" />
     <keyboard-shortcut first-keystroke="meta n" />
   </action>
+  <action id="IntroduceVariable">
+    <keyboard-shortcut first-keystroke="meta alt l" />
+    <keyboard-shortcut first-keystroke="shift alt l" />
+  </action>
   <action id="Jdbc.OpenEditor.Data" />
   <action id="NavBar-navigate" />
   <action id="NewElement">
@@ -69,6 +77,10 @@
   <action id="ServiceView.AddService">
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
+  <action id="ShowProjectStructureSettings">
+    <keyboard-shortcut first-keystroke="meta semicolon" />
+    <keyboard-shortcut first-keystroke="shift ctrl meta s" />
+  </action>
   <action id="Sql.EditParameter" />
   <action id="Uml.NewElement">
     <keyboard-shortcut first-keystroke="ctrl enter" />
@@ -76,4 +88,5 @@
   <action id="Vcs.QuickListPopupAction">
     <keyboard-shortcut first-keystroke="meta g" />
   </action>
+  <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleStrikethroughAction" />
 </keymap>
