@@ -2,6 +2,7 @@
   <action id="ActivateProjectToolWindow">
     <keyboard-shortcut first-keystroke="alt 1" />
   </action>
+  <action id="Android.Designer.AutoArrange" />
   <action id="Arrangement.Alias.Rule.Add">
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
@@ -13,13 +14,19 @@
     <mouse-shortcut keystroke="button4" />
     <keyboard-shortcut first-keystroke="alt left" />
   </action>
+  <action id="ChangesView.Move" />
   <action id="ClickLink">
     <mouse-shortcut keystroke="control button1" />
   </action>
   <action id="Console.TableResult.NavigateForeignAction">
     <mouse-shortcut keystroke="control button1" />
   </action>
+  <action id="Console.TableResult.SetDefault" />
   <action id="DatabaseView.OpenFamilyAction" />
+  <action id="Debug">
+    <keyboard-shortcut first-keystroke="meta f11" />
+    <keyboard-shortcut first-keystroke="shift alt d" />
+  </action>
   <action id="EditSource" />
   <action id="EditorNextWord">
     <keyboard-shortcut first-keystroke="ctrl alt f" />
@@ -27,6 +34,11 @@
   <action id="EditorPreviousWord">
     <keyboard-shortcut first-keystroke="ctrl alt b" />
   </action>
+  <action id="EditorSelectWord" />
+  <action id="EditorToggleCase">
+    <keyboard-shortcut first-keystroke="shift meta x" />
+  </action>
+  <action id="EditorUnSelectWord" />
   <action id="ExternalSystem.OpenConfig" />
   <action id="ExtractMethod">
     <keyboard-shortcut first-keystroke="meta alt m" />
@@ -44,15 +56,14 @@
   <action id="Generate">
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
-  <action id="GotoAction">
-    <keyboard-shortcut first-keystroke="meta 3" />
-    <keyboard-shortcut first-keystroke="shift meta a" />
-  </action>
   <action id="GotoDeclaration">
     <mouse-shortcut keystroke="control button1" />
   </action>
   <action id="GotoImplementation">
     <keyboard-shortcut first-keystroke="f3" />
+  </action>
+  <action id="GotoLine">
+    <keyboard-shortcut first-keystroke="ctrl meta l" />
   </action>
   <action id="GotoNextError">
     <keyboard-shortcut first-keystroke="meta period" />
@@ -62,31 +73,42 @@
     <keyboard-shortcut first-keystroke="meta alt l" />
     <keyboard-shortcut first-keystroke="shift alt l" />
   </action>
+  <action id="Jdbc.OpenConsole.New" />
+  <action id="Jdbc.OpenConsole.New.Generate" />
   <action id="Jdbc.OpenEditor.Data" />
   <action id="NavBar-navigate" />
   <action id="NewElement">
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
-  <action id="NextDiff">
-    <keyboard-shortcut first-keystroke="ctrl f7" />
-    <keyboard-shortcut first-keystroke="meta n" />
-  </action>
+  <action id="NextDiff" />
   <action id="OpenModuleSettings" />
   <action id="ProjectViewEditSource" />
   <action id="RemoteHostView.EditSource" />
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="shift meta f11" />
+    <keyboard-shortcut first-keystroke="shift alt x" />
+  </action>
   <action id="ServiceView.AddService">
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
+  <action id="ShowContent" />
   <action id="ShowProjectStructureSettings">
     <keyboard-shortcut first-keystroke="meta semicolon" />
     <keyboard-shortcut first-keystroke="shift ctrl meta s" />
   </action>
   <action id="Sql.EditParameter" />
+  <action id="Terminal.ClearBuffer">
+    <keyboard-shortcut first-keystroke="meta k" />
+  </action>
   <action id="Uml.NewElement">
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
+  <action id="Vcs.Log.FocusTextFilter" />
+  <action id="Vcs.MoveChangedLinesToChangelist" />
   <action id="Vcs.QuickListPopupAction">
     <keyboard-shortcut first-keystroke="meta g" />
   </action>
+  <action id="context.clear" />
+  <action id="hg4idea.QFold" />
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleStrikethroughAction" />
 </keymap>
