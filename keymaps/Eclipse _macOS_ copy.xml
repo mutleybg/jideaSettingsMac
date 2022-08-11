@@ -12,7 +12,7 @@
   <action id="Back">
     <keyboard-shortcut first-keystroke="meta open_bracket" />
     <mouse-shortcut keystroke="button4" />
-    <keyboard-shortcut first-keystroke="alt left" />
+    <keyboard-shortcut first-keystroke="ctrl alt left" />
   </action>
   <action id="ChangesView.Move" />
   <action id="ClickLink">
@@ -38,17 +38,13 @@
   <action id="EditorDuplicate">
     <keyboard-shortcut first-keystroke="shift meta d" />
   </action>
-  <action id="EditorNextWord">
-    <keyboard-shortcut first-keystroke="ctrl alt f" />
-  </action>
-  <action id="EditorPreviousWord">
-    <keyboard-shortcut first-keystroke="ctrl alt b" />
-  </action>
   <action id="EditorSelectWord" />
   <action id="EditorToggleCase">
     <keyboard-shortcut first-keystroke="shift meta x" />
   </action>
   <action id="EditorUnSelectWord" />
+  <action id="EmmetNextEditPoint" />
+  <action id="EmmetPreviousEditPoint" />
   <action id="ExternalSystem.OpenConfig" />
   <action id="ExtractMethod">
     <keyboard-shortcut first-keystroke="meta alt m" />
@@ -61,7 +57,7 @@
   <action id="Forward">
     <keyboard-shortcut first-keystroke="meta close_bracket" />
     <mouse-shortcut keystroke="button5" />
-    <keyboard-shortcut first-keystroke="alt right" />
+    <keyboard-shortcut first-keystroke="ctrl alt right" />
   </action>
   <action id="Generate">
     <keyboard-shortcut first-keystroke="ctrl enter" />
