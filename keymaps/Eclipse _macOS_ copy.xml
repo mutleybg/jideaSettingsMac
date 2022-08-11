@@ -18,6 +18,9 @@
   <action id="ClickLink">
     <mouse-shortcut keystroke="control button1" />
   </action>
+  <action id="CloseProject">
+    <keyboard-shortcut first-keystroke="ctrl w" />
+  </action>
   <action id="Console.TableResult.CompareCells" />
   <action id="Console.TableResult.NavigateForeignAction">
     <mouse-shortcut keystroke="control button1" />
@@ -118,6 +121,7 @@
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
   <action id="Uml.ShowDiff" />
+  <action id="UsageFiltering.WriteAccess" />
   <action id="Vcs.Log.FocusTextFilter" />
   <action id="Vcs.MoveChangedLinesToChangelist" />
   <action id="Vcs.QuickListPopupAction">
