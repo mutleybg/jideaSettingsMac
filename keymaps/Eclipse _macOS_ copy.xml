@@ -18,6 +18,7 @@
   <action id="ClickLink">
     <mouse-shortcut keystroke="control button1" />
   </action>
+  <action id="Console.TableResult.CompareCells" />
   <action id="Console.TableResult.NavigateForeignAction">
     <mouse-shortcut keystroke="control button1" />
   </action>
@@ -27,7 +28,11 @@
     <keyboard-shortcut first-keystroke="meta f11" />
     <keyboard-shortcut first-keystroke="shift alt d" />
   </action>
+  <action id="Diff.ShowSettingsPopup" />
   <action id="EditSource" />
+  <action id="EditorDuplicate">
+    <keyboard-shortcut first-keystroke="shift meta d" />
+  </action>
   <action id="EditorNextWord">
     <keyboard-shortcut first-keystroke="ctrl alt f" />
   </action>
@@ -84,6 +89,13 @@
   <action id="OpenModuleSettings" />
   <action id="ProjectViewEditSource" />
   <action id="RemoteHostView.EditSource" />
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="shift f6" />
+    <keyboard-shortcut first-keystroke="shift alt r" />
+  </action>
+  <action id="RerunTests">
+    <keyboard-shortcut first-keystroke="ctrl meta r" />
+  </action>
   <action id="Run">
     <keyboard-shortcut first-keystroke="shift meta f11" />
     <keyboard-shortcut first-keystroke="shift alt x" />
@@ -103,6 +115,7 @@
   <action id="Uml.NewElement">
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
+  <action id="Uml.ShowDiff" />
   <action id="Vcs.Log.FocusTextFilter" />
   <action id="Vcs.MoveChangedLinesToChangelist" />
   <action id="Vcs.QuickListPopupAction">
