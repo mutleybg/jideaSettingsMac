@@ -29,7 +29,9 @@
     <keyboard-shortcut first-keystroke="shift alt d" />
   </action>
   <action id="Diff.ShowSettingsPopup" />
-  <action id="EditSource" />
+  <action id="EditSource">
+    <keyboard-shortcut first-keystroke="f12" />
+  </action>
   <action id="EditorDuplicate">
     <keyboard-shortcut first-keystroke="shift meta d" />
   </action>
