@@ -68,9 +68,6 @@
   <action id="GotoImplementation">
     <keyboard-shortcut first-keystroke="f3" />
   </action>
-  <action id="GotoLine">
-    <keyboard-shortcut first-keystroke="ctrl meta l" />
-  </action>
   <action id="GotoNextError">
     <keyboard-shortcut first-keystroke="meta period" />
     <keyboard-shortcut first-keystroke="meta n" />
