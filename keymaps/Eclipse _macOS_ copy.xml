@@ -78,6 +78,9 @@
   <action id="GotoSuperMethod">
     <keyboard-shortcut first-keystroke="shift meta s" />
   </action>
+  <action id="ImplementMethods">
+    <keyboard-shortcut first-keystroke="shift alt p" />
+  </action>
   <action id="IntroduceVariable">
     <keyboard-shortcut first-keystroke="meta alt l" />
     <keyboard-shortcut first-keystroke="shift alt l" />
@@ -128,5 +131,6 @@
   </action>
   <action id="context.clear" />
   <action id="hg4idea.QFold" />
+  <action id="hg4idea.QPushAction" />
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleStrikethroughAction" />
 </keymap>
