@@ -137,6 +137,10 @@
     <keyboard-shortcut first-keystroke="shift ctrl meta s" />
   </action>
   <action id="Sql.EditParameter" />
+  <action id="SurroundWith">
+    <keyboard-shortcut first-keystroke="meta alt z" />
+    <keyboard-shortcut first-keystroke="shift alt z" />
+  </action>
   <action id="Table-startEditing" />
   <action id="Terminal.ClearBuffer">
     <keyboard-shortcut first-keystroke="meta k" />
