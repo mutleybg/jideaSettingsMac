@@ -27,6 +27,7 @@
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
   <action id="Console.TableResult.CompareCells" />
+  <action id="Console.TableResult.CopyAggregatorResult" />
   <action id="Console.TableResult.EditValue">
     <keyboard-shortcut first-keystroke="enter" />
     <keyboard-shortcut first-keystroke="alt enter" />
@@ -35,6 +36,11 @@
     <mouse-shortcut keystroke="control button1" />
   </action>
   <action id="Console.TableResult.SetDefault" />
+  <action id="CopyAbsolutePath" />
+  <action id="CopyPaths" />
+  <action id="DatabaseView.CopyDdlAction">
+    <keyboard-shortcut first-keystroke="shift meta alt g" />
+  </action>
   <action id="DatabaseView.OpenFamilyAction" />
   <action id="Debug">
     <keyboard-shortcut first-keystroke="meta f11" />
@@ -96,6 +102,9 @@
   <action id="ImplementMethods">
     <keyboard-shortcut first-keystroke="shift alt p" />
   </action>
+  <action id="IntroduceConstant">
+    <keyboard-shortcut first-keystroke="shift meta c" />
+  </action>
   <action id="IntroduceVariable">
     <keyboard-shortcut first-keystroke="meta alt l" />
     <keyboard-shortcut first-keystroke="shift alt l" />
@@ -113,6 +122,7 @@
   <action id="QuickJavaDoc">
     <mouse-shortcut keystroke="alt button2" />
   </action>
+  <action id="RemoteHostView.CopyPaths" />
   <action id="RemoteHostView.EditSource" />
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="shift f6" />
@@ -159,9 +169,11 @@
   <action id="Vcs.QuickListPopupAction">
     <keyboard-shortcut first-keystroke="meta g" />
   </action>
+  <action id="WelcomeScreen.CopyProjectPath" />
   <action id="XDebugger.SetValue" />
   <action id="context.clear" />
   <action id="hg4idea.QFold" />
   <action id="hg4idea.QPushAction" />
+  <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleCodeSpanAction" />
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleStrikethroughAction" />
 </keymap>
