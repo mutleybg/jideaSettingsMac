@@ -64,7 +64,6 @@
   <action id="EmmetPreviousEditPoint" />
   <action id="ExternalSystem.OpenConfig" />
   <action id="ExtractMethod">
-    <keyboard-shortcut first-keystroke="meta alt m" />
     <keyboard-shortcut first-keystroke="shift alt m" />
   </action>
   <action id="FileChooser.NewFolder" />
@@ -112,6 +111,9 @@
   <action id="Jdbc.OpenConsole.New" />
   <action id="Jdbc.OpenConsole.New.Generate" />
   <action id="Jdbc.OpenEditor.Data" />
+  <action id="MergeAllWindowsAction">
+    <keyboard-shortcut first-keystroke="meta alt m" />
+  </action>
   <action id="NavBar-navigate" />
   <action id="NewElement">
     <keyboard-shortcut first-keystroke="ctrl enter" />
