@@ -14,7 +14,7 @@
     <mask>*.js</mask>
     <mask>*config.xml</mask>
     <mask>*.impex</mask>
-    <mask>*.java</mask>
     <mask>*.properties</mask>
+    <mask>*.java</mask>
   </component>
 </application>
