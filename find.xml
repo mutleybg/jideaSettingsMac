@@ -7,7 +7,6 @@
     <mask>*.html</mask>
     <mask>*.jsp</mask>
     <mask>*.xml</mask>
-    <mask>*.jsp, *.tag</mask>
     <mask>*.beans.xml</mask>
     <mask>*.js</mask>
     <mask>*.impex</mask>
@@ -16,5 +15,6 @@
     <mask>*config.xml</mask>
     <mask>*.properties</mask>
     <mask>*items.xml</mask>
+    <mask>*.jsp, *.tag</mask>
   </component>
 </application>
