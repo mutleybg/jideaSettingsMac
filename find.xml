@@ -13,8 +13,8 @@
     <mask>*beans.xml</mask>
     <mask>*.jsp, *.tag</mask>
     <mask>*.java</mask>
-    <mask>*config.xml</mask>
     <mask>*.properties</mask>
     <mask>*items.xml</mask>
+    <mask>*config.xml</mask>
   </component>
 </application>
