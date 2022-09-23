@@ -19,5 +19,10 @@
         </option>
       </thread-list>
     </option>
+    <option name="timelineState">
+      <timeline-ui>
+        <option name="dragToChangeZoom" value="true" />
+      </timeline-ui>
+    </option>
   </component>
 </application>
