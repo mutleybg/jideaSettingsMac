@@ -15,8 +15,8 @@
     <mask>*.jsp, *.tag</mask>
     <mask>*items.xml</mask>
     <mask>*.properties</mask>
-    <mask>*config.xml</mask>
     <mask>*.java</mask>
     <mask>*beans.xml</mask>
+    <mask>*config.xml</mask>
   </component>
 </application>
