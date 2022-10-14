@@ -100,7 +100,7 @@
         <Renderer ID="LabelRenderer" role="label">
           <option name="QUALIFIED_NAME" value="de.hybris.platform.core.model.user.CustomerModel" />
           <option name="ON_DEMAND" value="false" />
-          <option name="LABEL_EXPRESSION" expression="this.getUid()" language="JAVA" mode="CODE_FRAGMENT" />
+          <option name="LABEL_EXPRESSION" value="this.getUid()&#13;&#13;JAVA" />
         </Renderer>
       </Renderer>
       <Renderer ID="CompoundNodeRenderer">
