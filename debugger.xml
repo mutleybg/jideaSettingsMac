@@ -94,6 +94,16 @@
   <component name="NodeRendererSettings">
     <CustomRenderers VERSION="8">
       <Renderer ID="CompoundNodeRenderer">
+        <option name="NAME" value="CustomerModel" />
+        <option name="ENABLED" value="true" />
+        <option name="QUALIFIED_NAME" value="de.hybris.platform.core.model.user.CustomerModel" />
+        <Renderer ID="LabelRenderer" role="label">
+          <option name="QUALIFIED_NAME" value="de.hybris.platform.core.model.user.CustomerModel" />
+          <option name="ON_DEMAND" value="false" />
+          <option name="LABEL_EXPRESSION" expression="this.getUid()" language="JAVA" mode="CODE_FRAGMENT" />
+        </Renderer>
+      </Renderer>
+      <Renderer ID="CompoundNodeRenderer">
         <option name="NAME" value="ProductModel" />
         <option name="ENABLED" value="true" />
         <option name="QUALIFIED_NAME" value="de.hybris.platform.core.model.product.ProductModel" />
