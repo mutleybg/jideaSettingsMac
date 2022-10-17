@@ -94,6 +94,16 @@
   <component name="NodeRendererSettings">
     <CustomRenderers VERSION="8">
       <Renderer ID="CompoundNodeRenderer">
+        <option name="NAME" value="ViewConfigurationMappingModel" />
+        <option name="ENABLED" value="true" />
+        <option name="QUALIFIED_NAME" value="com.bbraun.hybris.core.model.ViewConfigurationMappingModel" />
+        <Renderer ID="LabelRenderer" role="label">
+          <option name="QUALIFIED_NAME" value="com.bbraun.hybris.core.model.ViewConfigurationMappingModel" />
+          <option name="ON_DEMAND" value="false" />
+          <option name="LABEL_EXPRESSION" value="this.getPortalLocale() + &quot; - &quot; + this.getViewConfiguration().getCode()&#13;&#13;JAVA" />
+        </Renderer>
+      </Renderer>
+      <Renderer ID="CompoundNodeRenderer">
         <option name="NAME" value="CustomerModel" />
         <option name="ENABLED" value="true" />
         <option name="QUALIFIED_NAME" value="de.hybris.platform.core.model.user.CustomerModel" />
