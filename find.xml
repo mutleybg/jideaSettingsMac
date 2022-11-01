@@ -16,8 +16,8 @@
     <mask>*config.xml</mask>
     <mask>*.impex</mask>
     <mask>*items.xml</mask>
-    <mask>*.xml</mask>
     <mask>*.properties</mask>
+    <mask>*.xml</mask>
     <mask>*.java</mask>
   </component>
 </application>
